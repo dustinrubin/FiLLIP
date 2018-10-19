@@ -2,5 +2,7 @@ Visit the propt at HackerRack: [Problem](https://www.hackerrank.com/challenges/m
 )
 
 TIME COMPLETED
+
 Dustin: Forgot to time
+
 Talitha: ~30 minutes 
