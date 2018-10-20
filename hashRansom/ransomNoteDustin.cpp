@@ -6,10 +6,10 @@ vector<string> split_string(string);
 
 typedef unordered_map<string, int> wordCount;
 
-wordCount countWords(vector<string> input)
+wordCount countWords(const vector<string> & input)
 {
     wordCount returnValue;
-    for(string word : input)
+    for(const string& word : input)
     {
         if (returnValue.find(word) == returnValue.end())
         {
@@ -23,11 +23,11 @@ wordCount countWords(vector<string> input)
     return returnValue;
 }
 
-bool checkMagazine(vector<string> magazine, vector<string> note) 
+bool checkMagazine(const vector<string> & magazine,const vector<string> & note) 
 {
-    wordCount magazineWordCount = countWords(magazine);
-    wordCount noteWordCount = countWords(note);
-    for(pair<string, int> item : noteWordCount)
+    const wordCount & magazineWordCount = countWords(magazine);
+    const wordCount & noteWordCount = countWords(note);
+    for(const pair<string, int>& item : noteWordCount)
     {
         string word = item.first;
         if (magazineWordCount.find(word) == magazineWordCount.end())
