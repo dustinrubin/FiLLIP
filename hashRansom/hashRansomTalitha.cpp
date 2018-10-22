@@ -5,6 +5,10 @@ using namespace std;
 
 vector<string> split_string(string);
 
+//WARNING:
+// DOES NOT COMPILE -- INCOMPLETE CODE
+// did not finish building hash before I found a better way
+
 // struct for hash table
 struct hashNode
 {
