@@ -29,7 +29,6 @@ void checkMagazine(vector<string> magazine, vector<string> note)
         - must have some way to check if a word has been used 
             (if "me" only appears once in the mag, you cannot use "me" twice in the note)
             could be bool or deleting once used?
-        - where it is in the magazine array
         - actual word
     */
 
