@@ -4,4 +4,5 @@ TIME COMPLETED:
 
 Dustin 30 min
 
-Talitha 
+Talitha 4+ hrs, before I realized that I was probably doing something wrong. Turns out, don't implement your own hash.
+After that it only took 20-30 min
