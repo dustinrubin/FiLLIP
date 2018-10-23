@@ -5,4 +5,4 @@ TIME COMPLETED
 
 Dustin: 15 min for both
 
-Talitha:
+Talitha: 9:30 min for C++, 6 min for Python & JavaScript
