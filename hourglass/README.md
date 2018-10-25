@@ -6,4 +6,4 @@ TIME COMPLETED
 
 Dustin: 25min C++ Haskell Lost track 
 
-Talitha:
+Talitha: ~60min C++ *ouch*
