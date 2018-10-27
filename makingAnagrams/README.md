@@ -5,4 +5,4 @@ TIME COMPLETED
 
 Dustin: A long time thinking this was a palindrome problem. I will do a lower level language too at some point. 
 
-Talitha: 
+Talitha: Not sure, I ended up doing a lot of other stuff while working on this one. 
