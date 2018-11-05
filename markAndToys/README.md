@@ -5,4 +5,5 @@ TIME COMPLETED
 
 Dustin: 10 min
 
-Talitha:
+Talitha: 20 min 
+
