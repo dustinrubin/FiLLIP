@@ -11,7 +11,7 @@ import sys
 
 
 
-#Validate correct amount of comand line arguments
+#Validate correct amount of command line arguments
 if len(sys.argv) != 3:
     print("usage: makeProblemDirectory.py [nameOfDirectoy] [URLOfProblem]")
     sys.exit(0)
