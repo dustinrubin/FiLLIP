@@ -2,6 +2,6 @@ View the prompt on HackerRank: [Problem](https://www.hackerrank.com/challenges/c
 
 TIME COMPLETED:
 
-Dustin:
+Dustin: Re did to make code more readable
 
 Talitha:
