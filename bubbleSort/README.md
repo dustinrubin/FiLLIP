@@ -4,4 +4,4 @@ TIME COMPLETED:
 
 Dustin: Re did to make code more readable
 
-Talitha:
+Talitha: ~15 min
