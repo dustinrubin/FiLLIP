@@ -2,6 +2,6 @@ Visit the propt at HackerRack: [Problem](https://www.hackerrank.com/challenges/m
 
 TIME COMPLETED
 
-Dustin: 15 min for both
+Dustin: 
 
-Talitha: 9:30 min for C++, 6 min for Python & JavaScript
+Talitha: 
