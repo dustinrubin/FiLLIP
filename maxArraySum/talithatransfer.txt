@@ -1,0 +1,35 @@
+int maxSubsetSum(vector<int> arr) 
+{
+  vector<int> recursiveSum(arr.size()); 
+  int lastIndex = arr.size() - 1;
+  int maxSum = -INFINITY;
+  
+  for (int i = lastIndex; i >= 0; i--) 
+  {      
+    if((i == lastIndex) || (i == lastIndex - 1))
+    {
+        recursiveSum[i] = arr[i];       
+    }
+    else if(i == lastIndex - 2)
+    {
+        //third to last index
+        recursiveSum[i] = arr[i] + recursiveSum[lastIndex];
+    }
+    else
+    {
+        if(recursiveSum[i+2] > recursiveSum[i+3])
+        {
+            recursiveSum[i] = arr[i] + recursiveSum[i+2];
+        }
+        else
+        {
+          recursiveSum[i] = arr[i] + recursiveSum[i + 3];
+        }
+    }
+
+    if (recursiveSum[i] > maxSum)
+      maxSum = recursiveSum[i];
+  }
+
+  return maxSum;
+}
