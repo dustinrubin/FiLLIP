@@ -13,10 +13,11 @@ def maxSubsetSum(list):
     twoBackSolution = 0
     for index in range(len(list)):
         currentValue = list[index]
-        if currentValue <= 0 or twoBackSolution + currentValue < oneBackSolution:
-            twoBackSolution = oneBackSolution
-        else:
+        if currentValue > 0 and twoBackSolution + currentValue > oneBackSolution:
             ( twoBackSolution, oneBackSolution) =  ( oneBackSolution, twoBackSolution + currentValue)
+        else:
+            twoBackSolution = oneBackSolution
+            
     return max(twoBackSolution, oneBackSolution)
 
 
